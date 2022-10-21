@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+# URL Being Scrapped: "https://finance.yahoo.com/quote/AAPL/history?p=AAPL"
+
 URL = "https://finance.yahoo.com/quote/AAPL/history?p=AAPL"
 
 HEADERS = {
